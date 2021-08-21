@@ -1,0 +1,77 @@
+/* RESPONSIVE CSS */
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 740px) {
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+  #header .search-btn {
+    display: none;
+  }
+  #header .mobile-bars-btn {
+    display: block;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #nav {
+    display: block;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav li a {
+    display: block;
+  }
+  #nav .sub-nav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav .sub-nav a {
+    color: #fff;
+    padding: 0 41px;
+  }
+  #slider .text-heading,
+  #slider .text-description {
+    display: none;
+  }
+  #content .member,
+  #contact-content .contact-form,
+  #contact-content .contact-info {
+    width: 100%;
+  }
+  .ticket {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  #contact-content .contact-form {
+    padding: 16px 0;
+  }
+  #name-contact {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  #email-contact {
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  #contact-content .form-control {
+    padding: 16px;
+  }
+  /* #contact-content .btn.form-control {
+    padding: 16px 24px;
+    width: 100%;
+  } */
+  .btn {
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 16px;
+  }
+}
